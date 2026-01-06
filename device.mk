@@ -113,5 +113,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Inherit MotCamera config
+PRODUCT_PACKAGES += \
+    MotCamera4
+
+$(call inherit-product, vendor/motorola/MotCamera4/motcamera4.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/fogos/fogos-vendor.mk)

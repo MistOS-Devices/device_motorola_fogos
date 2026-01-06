@@ -9,5 +9,11 @@
     "target_path": "hardware/samsung_slsi/nfc",
     "remote": "github",
     "branch": "lineage-23.0"
+  },
+  {
+    "repository": "JNWSG/vendor_motorola_MotCamera4",
+    "target_path": "vendor/motorola/MotCamera4",
+    "remote": "gitea",
+    "branch": "16.0"
   }
 ]
