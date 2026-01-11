@@ -14,6 +14,9 @@ $(call inherit-product, device/motorola/fogos/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# MAINTAINER 
+MISTOS_MAINTAINER := JNWSG_(JINWOO)
+
 PRODUCT_NAME := lineage_fogos
 PRODUCT_DEVICE := fogos
 PRODUCT_MANUFACTURER := motorola
@@ -26,3 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-5 8bc43-2e1099 release-keys MV-186" \
     BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-5/8bc43-2e1099:user/release-keys \
     DeviceProduct=fogos_g
+
+# MISTOS
+MIST_BUILD_TYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 720
