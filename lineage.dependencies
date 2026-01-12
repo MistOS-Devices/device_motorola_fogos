@@ -15,5 +15,11 @@
     "target_path": "vendor/motorola/MotCamera4",
     "remote": "gitea",
     "branch": "16.0"
+  },
+  {
+    "repository": "JNWSG/vendor_lineage-priv_keys-template",
+    "target_path": "vendor/lineage-priv/keys",
+    "remote": "github",
+    "branch": "16"
   }
 ]
