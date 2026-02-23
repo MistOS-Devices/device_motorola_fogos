@@ -18,7 +18,7 @@ namespace pixel {
 
 using ::aidl::android::hardware::power::Mode;
 
-const std::string TAP_TO_WAKE_NODE = "/sys/class/touchscreen/primary/gesture";
+const std::string TAP_TO_WAKE_NODE = "/sys/devices/virtual/touchscreen/primary/double_tap_enabled";
 
 bool isDeviceSpecificModeSupported(Mode type, bool* _aidl_return) {
     switch (type) {
