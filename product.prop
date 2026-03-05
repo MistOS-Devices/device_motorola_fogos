@@ -19,4 +19,4 @@ ro.mist.camera=50MP + 2MP
 ro.mist.front=16MP
 ro.mist.platform=SM6375
 ro.mist.screen=6.5' IPS LCD
-ro.mist.device=Fogos
+ro.mist.device=Motorola Moto G34/G45 5G
