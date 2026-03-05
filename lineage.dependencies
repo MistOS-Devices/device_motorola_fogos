@@ -20,6 +20,6 @@
     "repository": "JNWSG/vendor_lineage-priv_keys-template",
     "target_path": "vendor/lineage-priv/keys",
     "remote": "github",
-    "branch": "16"
+    "branch": "16.2"
   }
 ]
