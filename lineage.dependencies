@@ -2,13 +2,13 @@
   {
     "repository": "device_motorola_sm6375-common",
     "target_path": "device/motorola/sm6375-common",
-    "branch": "16.0"
+    "branch": "16.2"
   },
   {
     "repository": "LineageOS/android_hardware_samsung_slsi_nfc",
     "target_path": "hardware/samsung_slsi/nfc",
     "remote": "github",
-    "branch": "lineage-23.0"
+    "branch": "lineage-23.2"
   },
   {
     "repository": "JNWSG/vendor_motorola_MotCamera4",
